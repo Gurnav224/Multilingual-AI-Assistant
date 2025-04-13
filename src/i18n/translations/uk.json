@@ -1,0 +1,36 @@
+{
+    "appTitle": "Багатомовний AI асистент",
+    "sendButton": "Відправити",
+    "clearButton": "Очистити чат",
+    "inputPlaceholder": "Введіть ваше повідомлення...",
+    "imageUpload": {
+      "title": "Завантаження зображення",
+      "uploadButton": "Завантажити",
+      "captureButton": "Зробити фото",
+      "clearButton": "Очистити",
+      "descriptionPlaceholder": "Опишіть ваше зображення...",
+      "sendButton": "Відправити зображення"
+    },
+    "audioRecording": {
+      "startButton": "Почати запис",
+      "stopButton": "Зупинити запис",
+      "listeningText": "Слухаємо...",
+      "errorText": "Помилка: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Мова"
+    },
+    "messages": {
+      "you": "Ви",
+      "assistant": "AI асистент",
+      "typing": "AI друкує..."
+    },
+    "errors": {
+      "apiKey": "Відсутній ключ API Groq. Додайте VITE_GROQ_API_KEY до ваших змінних середовища.",
+      "sendMessage": "Не вдалося надіслати повідомлення",
+      "processImage": "Не вдалося обробити зображення",
+      "processAudio": "Не вдалося обробити аудіо",
+      "browserSupport": "Ваш браузер не підтримує цю функцію"
+    }
+  }
+  

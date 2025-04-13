@@ -1,0 +1,36 @@
+{
+    "appTitle": "Trợ lý AI Đa ngôn ngữ",
+    "sendButton": "Gửi",
+    "clearButton": "Xóa trò chuyện",
+    "inputPlaceholder": "Nhập tin nhắn của bạn...",
+    "imageUpload": {
+      "title": "Tải lên hình ảnh",
+      "uploadButton": "Tải lên",
+      "captureButton": "Chụp ảnh",
+      "clearButton": "Xóa",
+      "descriptionPlaceholder": "Mô tả hình ảnh của bạn...",
+      "sendButton": "Gửi hình ảnh"
+    },
+    "audioRecording": {
+      "startButton": "Bắt đầu ghi âm",
+      "stopButton": "Dừng ghi âm",
+      "listeningText": "Đang nghe...",
+      "errorText": "Lỗi: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Ngôn ngữ"
+    },
+    "messages": {
+      "you": "Bạn",
+      "assistant": "Trợ lý AI",
+      "typing": "AI đang gõ..."
+    },
+    "errors": {
+      "apiKey": "Thiếu khóa API Groq. Vui lòng thêm VITE_GROQ_API_KEY vào biến môi trường của bạn.",
+      "sendMessage": "Gửi tin nhắn không thành công",
+      "processImage": "Xử lý hình ảnh không thành công",
+      "processAudio": "Xử lý âm thanh không thành công",
+      "browserSupport": "Trình duyệt của bạn không hỗ trợ tính năng này"
+    }
+  }
+  

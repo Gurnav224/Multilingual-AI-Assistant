@@ -1,0 +1,36 @@
+{
+    "appTitle": "Asistent AI Multilingv",
+    "sendButton": "Trimite",
+    "clearButton": "Șterge conversația",
+    "inputPlaceholder": "Scrieți mesajul dvs...",
+    "imageUpload": {
+      "title": "Încărcare imagine",
+      "uploadButton": "Încărcați",
+      "captureButton": "Fă o poză",
+      "clearButton": "Șterge",
+      "descriptionPlaceholder": "Descrieți imaginea dvs...",
+      "sendButton": "Trimite imaginea"
+    },
+    "audioRecording": {
+      "startButton": "Începe înregistrarea",
+      "stopButton": "Oprește înregistrarea",
+      "listeningText": "Ascult...",
+      "errorText": "Eroare: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Limba"
+    },
+    "messages": {
+      "you": "Tu",
+      "assistant": "Asistent AI",
+      "typing": "AI scrie..."
+    },
+    "errors": {
+      "apiKey": "Lipseste cheia API Groq. Adăugați VITE_GROQ_API_KEY în variabilele de mediu.",
+      "sendMessage": "Eșec la trimiterea mesajului",
+      "processImage": "Eșec la procesarea imaginii",
+      "processAudio": "Eșec la procesarea audio",
+      "browserSupport": "Browserul dvs. nu acceptă această funcție"
+    }
+  }
+  
