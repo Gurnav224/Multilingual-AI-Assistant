@@ -19,7 +19,6 @@ const languages = [
   { code: 'id', name: 'Indonesian' },
   { code: 'it', name: 'Italian' },
   { code: 'ja', name: 'Japanese' },
-  { code: 'kn', name: 'Kannada' },
   { code: 'ko', name: 'Korean' },
   { code: 'ms', name: 'Malay' },
   { code: 'no', name: 'Norwegian' },
