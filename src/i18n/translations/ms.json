@@ -1,0 +1,36 @@
+{
+    "appTitle": "Pembantu AI Pelbagai Bahasa",
+    "sendButton": "Hantar",
+    "clearButton": "Kosongkan perbualan",
+    "inputPlaceholder": "Taipkan mesej anda...",
+    "imageUpload": {
+      "title": "Muat naik imej",
+      "uploadButton": "Muat naik",
+      "captureButton": "Ambil gambar",
+      "clearButton": "Kosongkan",
+      "descriptionPlaceholder": "Terangkan imej anda...",
+      "sendButton": "Hantar imej"
+    },
+    "audioRecording": {
+      "startButton": "Mulakan rakaman",
+      "stopButton": "Hentikan rakaman",
+      "listeningText": "Mendengar...",
+      "errorText": "Ralat: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Bahasa"
+    },
+    "messages": {
+      "you": "Anda",
+      "assistant": "Pembantu AI",
+      "typing": "AI sedang menaip..."
+    },
+    "errors": {
+      "apiKey": "Kunci API Groq hilang. Sila tambah VITE_GROQ_API_KEY dalam pembolehubah persekitaran anda.",
+      "sendMessage": "Gagal menghantar mesej",
+      "processImage": "Gagal memproses imej",
+      "processAudio": "Gagal memproses audio",
+      "browserSupport": "Pelayar anda tidak menyokong fungsi ini"
+    }
+  }
+  

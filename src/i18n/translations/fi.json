@@ -1,0 +1,36 @@
+{
+    "appTitle": "Monikielinen AI-avustaja",
+    "sendButton": "Lähetä",
+    "clearButton": "Tyhjennä keskustelu",
+    "inputPlaceholder": "Kirjoita viestisi...",
+    "imageUpload": {
+      "title": "Kuvan lataaminen",
+      "uploadButton": "Lataa",
+      "captureButton": "Ota kuva",
+      "clearButton": "Tyhjennä",
+      "descriptionPlaceholder": "Kuvaile kuvaasi...",
+      "sendButton": "Lähetä kuva"
+    },
+    "audioRecording": {
+      "startButton": "Aloita nauhoitus",
+      "stopButton": "Lopeta nauhoitus",
+      "listeningText": "Kuunnellaan...",
+      "errorText": "Virhe: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Kieli"
+    },
+    "messages": {
+      "you": "Sinä",
+      "assistant": "AI-avustaja",
+      "typing": "AI kirjoittaa..."
+    },
+    "errors": {
+      "apiKey": "Groq API-avain puuttuu. Lisää VITE_GROQ_API_KEY ympäristömuuttujiisi.",
+      "sendMessage": "Viestin lähetys epäonnistui",
+      "processImage": "Kuvan käsittely epäonnistui",
+      "processAudio": "Äänen käsittely epäonnistui",
+      "browserSupport": "Selain ei tue tätä ominaisuutta"
+    }
+  }
+  

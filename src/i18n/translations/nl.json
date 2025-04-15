@@ -1,0 +1,36 @@
+{
+    "appTitle": "Meertalige AI Assistent",
+    "sendButton": "Verzenden",
+    "clearButton": "Chat Wissen",
+    "inputPlaceholder": "Typ je bericht...",
+    "imageUpload": {
+      "title": "Afbeelding Uploaden",
+      "uploadButton": "Uploaden",
+      "captureButton": "Opnemen",
+      "clearButton": "Wissen",
+      "descriptionPlaceholder": "Beschrijf je afbeelding...",
+      "sendButton": "Afbeelding Verzenden"
+    },
+    "audioRecording": {
+      "startButton": "Opname Starten",
+      "stopButton": "Opname Stoppen",
+      "listeningText": "Luisteren...",
+      "errorText": "Fout: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Taal"
+    },
+    "messages": {
+      "you": "Jij",
+      "assistant": "AI Assistent",
+      "typing": "AI is aan het typen..."
+    },
+    "errors": {
+      "apiKey": "Groq API-sleutel ontbreekt. Voeg VITE_GROQ_API_KEY toe aan je omgevingsvariabelen.",
+      "sendMessage": "Bericht verzenden mislukt",
+      "processImage": "Afbeelding verwerken mislukt",
+      "processAudio": "Audio verwerken mislukt",
+      "browserSupport": "Je browser ondersteunt deze functie niet"
+    }
+  }
+  

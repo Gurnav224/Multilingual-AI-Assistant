@@ -1,0 +1,36 @@
+{
+    "appTitle": "Flerspråklig AI-assistent",
+    "sendButton": "Send",
+    "clearButton": "Tøm chat",
+    "inputPlaceholder": "Skriv meldingen din...",
+    "imageUpload": {
+      "title": "Bildeopplasting",
+      "uploadButton": "Last opp",
+      "captureButton": "Ta bilde",
+      "clearButton": "Tøm",
+      "descriptionPlaceholder": "Beskriv bildet ditt...",
+      "sendButton": "Send bilde"
+    },
+    "audioRecording": {
+      "startButton": "Start opptak",
+      "stopButton": "Stopp opptak",
+      "listeningText": "Lytter...",
+      "errorText": "Feil: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Språk"
+    },
+    "messages": {
+      "you": "Du",
+      "assistant": "AI-assistent",
+      "typing": "AI skriver..."
+    },
+    "errors": {
+      "apiKey": "Groq API-nøkkel mangler. Legg til VITE_GROQ_API_KEY i miljøvariablene dine.",
+      "sendMessage": "Feil ved sending av melding",
+      "processImage": "Feil ved behandling av bilde",
+      "processAudio": "Feil ved behandling av lyd",
+      "browserSupport": "Nettleseren din støtter ikke denne funksjonen"
+    }
+  }
+  

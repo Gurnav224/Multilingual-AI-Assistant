@@ -1,0 +1,37 @@
+{
+    "appTitle": "Többnyelvű AI asszisztens",
+    "sendButton": "Küldés",
+    "clearButton": "Csevegés törlése",
+    "inputPlaceholder": "Írja be üzenetét...",
+    "imageUpload": {
+      "title": "Kép feltöltés",
+      "uploadButton": "Feltöltés",
+      "captureButton": "Kép készítése",
+      "clearButton": "Törlés",
+      "descriptionPlaceholder": "Írja le a képet...",
+      "sendButton": "Kép küldése"
+    },
+    "audioRecording": {
+      "startButton": "Felvétel indítása",
+      "stopButton": "Felvétel leállítása",
+      "listeningText": "Hallgatás...",
+      "errorText": "Hiba: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Nyelv"
+    },
+    "messages": {
+      "you": "Te",
+      "assistant": "AI asszisztens",
+      "typing": "AI ír..."
+    },
+    "errors": {
+      "apiKey": "Hiányzik a Groq API kulcs. Kérjük, adja hozzá a VITE_GROQ_API_KEY-t a környezeti változókhoz.",
+      "sendMessage": "Üzenet küldése nem sikerült",
+      "processImage": "Kép feldolgozása nem sikerült",
+      "processAudio": "Audio feldolgozása nem sikerült",
+      "browserSupport": "A böngészője nem támogatja ezt a funkciót"
+    }
+  }
+
+  
