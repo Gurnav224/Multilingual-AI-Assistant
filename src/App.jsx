@@ -29,7 +29,7 @@ function App() {
     if (isValid) {
       setTimeout(() => setShowApiStatus(false), 10000);
     }
-  };
+  }; 
 
   return (
     <div className="min-h-screen p-4 pt-8">
@@ -49,6 +49,21 @@ function App() {
                 currentLanguage={currentLanguage}
               />
             </div>
+          </div>
+        </div>
+
+        <div className="flex gap-2 space-x-4 mb-10 sm:hidden justify-center items-center w-full">
+          <div className="w-40">
+            <ModelSelector
+              onModelChange={handleModelChange}
+              currentModel={currentModel}
+            />
+          </div>
+          <div className="w-40">
+            <LanguageSelector
+              onLanguageChange={handleLanguageChange}
+              currentLanguage={currentLanguage}
+            />
           </div>
         </div>
 
