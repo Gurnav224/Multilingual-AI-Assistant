@@ -6,8 +6,14 @@
 export const MODELS = {
   LLAMA3_8K: 'llama3-70b-8192',
   LLAMA3_INSTRUCT: 'llama3-70b-8192-instruct',
+  LLAMA4_8B: 'llama4-8b-32k',
+  LLAMA4_27B: 'llama4-27b-32k',
   MIXTRAL: 'mixtral-8x7b-32768',
-  GEMMA: 'gemma-7b-it'
+  GEMMA: 'gemma-7b-it',
+  GPT_O1: 'gpt-o1',
+  MISTRAL_LARGE: 'mistral-large',
+  DEEPSEEK_LLM: 'deepseek-llm-67b-32k',
+  DEEPSEEK_CODER: 'deepseek-coder-33b'
 };
 
 // Model information
@@ -22,6 +28,16 @@ export const MODEL_INFO = {
     contextWindow: 8192,
     description: 'Instruction-tuned version of Llama 3 optimized for following instructions'
   },
+  [MODELS.LLAMA4_8B]: {
+    name: 'Llama 4 (8B)',
+    contextWindow: 32768,
+    description: 'Latest model from Meta with 32k context window and 8B parameters'
+  },
+  [MODELS.LLAMA4_27B]: {
+    name: 'Llama 4 (27B)',
+    contextWindow: 32768,
+    description: 'Latest model from Meta with 32k context window and 27B parameters'
+  },
   [MODELS.MIXTRAL]: {
     name: 'Mixtral (8x7B)',
     contextWindow: 32768,
@@ -31,6 +47,26 @@ export const MODEL_INFO = {
     name: 'Gemma (7B)',
     contextWindow: 8192,
     description: 'Lightweight and efficient model from Google'
+  },
+  [MODELS.GPT_O1]: {
+    name: 'GPT-o1',
+    contextWindow: 32768,
+    description: 'OpenAI\'s latest multimodal model with 32k context window'
+  },
+  [MODELS.MISTRAL_LARGE]: {
+    name: 'Mistral Large',
+    contextWindow: 32768,
+    description: 'Mistral\'s powerful large language model'
+  },
+  [MODELS.DEEPSEEK_LLM]: {
+    name: 'DeepSeek LLM (67B)',
+    contextWindow: 32768, 
+    description: 'Advanced large language model from DeepSeek with 67B parameters'
+  },
+  [MODELS.DEEPSEEK_CODER]: {
+    name: 'DeepSeek Coder (33B)',
+    contextWindow: 32768,
+    description: 'Specialized coding model from DeepSeek with 33B parameters'
   }
 };
 
@@ -48,7 +84,27 @@ const LANGUAGE_SYSTEM_PROMPTS = {
   ko: '당신은 Groq에서 제공하는 다국어 AI 어시스턴트입니다. 한국어로 대답해주세요.',
   ar: 'أنت مساعد ذكاء اصطناعي متعدد اللغات مفيد مدعوم من Groq. الرجاء الرد باللغة العربية.',
   hi: 'आप Groq द्वारा संचालित एक सहायक, बहुभाषी AI सहायक हैं। कृपया हिंदी में उत्तर दें।',
-  ru: 'Вы полезный многоязычный ИИ-ассистент, работающий на Groq. Пожалуйста, отвечайте на русском языке.'
+  ru: 'Вы полезный многоязычный ИИ-ассистент, работающий на Groq. Пожалуйста, отвечайте на русском языке.',
+  pt: 'Você é um assistente de IA multilíngue útil alimentado pela Groq. Responda em português.',
+  it: 'Sei un assistente IA multilingue utile alimentato da Groq. Rispondi in italiano.',
+  nl: 'Je bent een behulpzame, meertalige AI-assistent aangedreven door Groq. Antwoord in het Nederlands.',
+  tr: 'Groq tarafından desteklenen çok dilli bir yapay zeka asistanısınız. Türkçe yanıt verin.',
+  pl: 'Jesteś pomocnym, wielojęzycznym asystentem AI napędzanym przez Groq. Odpowiedz po polsku.',
+  sv: 'Du är en hjälpsam, flerspråkig AI-assistent som drivs av Groq. Svara på svenska.',
+  no: 'Du er en hjelpsom, flerspråklig AI-assistent drevet av Groq. Svar på norsk.',
+  da: 'Du er en hjælpsom, flersproget AI-assistent drevet af Groq. Svar på dansk.',
+  fi: 'Olet avulias, monikielinen tekoälyavustaja, jonka taustalla on Groq. Vastaathan suomeksi.',
+  cs: 'Jste užitečný, vícejazyčný asistent AI poháněný Groq. Odpovězte v češtině.',
+  el: 'Είστε ένας χρήσιμος, πολύγλωσσος βοηθός AI που υποστηρίζεται από το Groq. Απαντήστε στα ελληνικά.',
+  th: 'คุณคือลูกค้าช่วย AI ที่หลากหลายภาษาที่ขับเคลื่อนโดย Groq กรุณาตอบเป็นภาษาไทย',
+  vi: 'Bạn là trợ lý AI đa ngôn ngữ hữu ích được hỗ trợ bởi Groq. Vui lòng trả lời bằng tiếng Việt.',
+  id: 'Anda adalah asisten AI multibahasa yang berguna yang didukung oleh Groq. Harap jawab dalam bahasa Indonesia.',
+  he: 'אתה עוזר AI רב לשוני מועיל המופעל על ידי Groq. ענה בעברית.',
+  uk: 'Ви корисний багатомовний асистент ШІ, який працює на Groq. Будь ласка, відповідайте українською.',
+  ro: 'Ești un asistent AI util multilingv susținut de Groq. Răspunde în limba română.',
+  hu: 'Ön egy hasznos, többnyelvű AI asszisztens, amelyet a Groq működtet. Válaszolj magyarul.',
+  bg: 'Вие сте полезен многоезичен AI асистент, захранван от Groq. Моля, отговорете на български.',
+  ms: 'Anda adalah pembantu AI multibahasa yang berguna yang dikuasakan oleh Groq. Sila jawab dalam bahasa Melayu.'
 };
 
 /**

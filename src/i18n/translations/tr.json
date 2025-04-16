@@ -1,0 +1,36 @@
+{
+    "appTitle": "Çok Dilli Yapay Zeka Asistanı",
+    "sendButton": "Gönder",
+    "clearButton": "Sohbeti Temizle",
+    "inputPlaceholder": "Mesajınızı yazın...",
+    "imageUpload": {
+      "title": "Görsel Girişi",
+      "uploadButton": "Yükle",
+      "captureButton": "Çek",
+      "clearButton": "Temizle",
+      "descriptionPlaceholder": "Görselinizi açıklayın...",
+      "sendButton": "Görseli Gönder"
+    },
+    "audioRecording": {
+      "startButton": "Kaydı Başlat",
+      "stopButton": "Kaydı Durdur",
+      "listeningText": "Dinleniyor...",
+      "errorText": "Hata: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Dil"
+    },
+    "messages": {
+      "you": "Sen",
+      "assistant": "Yapay Zeka Asistanı",
+      "typing": "Yapay zeka yazıyor..."
+    },
+    "errors": {
+      "apiKey": "Groq API anahtarı eksik. Lütfen ortam değişkenlerinize VITE_GROQ_API_KEY ekleyin.",
+      "sendMessage": "Mesaj gönderilemedi",
+      "processImage": "Görsel işlenemedi",
+      "processAudio": "Ses işlenemedi",
+      "browserSupport": "Tarayıcınız bu özelliği desteklemiyor"
+    }
+  }
+  
