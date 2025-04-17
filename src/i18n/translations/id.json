@@ -1,0 +1,36 @@
+{
+    "appTitle": "Asisten AI Multibahasa",
+    "sendButton": "Kirim",
+    "clearButton": "Bersihkan percakapan",
+    "inputPlaceholder": "Ketik pesan Anda...",
+    "imageUpload": {
+      "title": "Unggah Gambar",
+      "uploadButton": "Unggah",
+      "captureButton": "Ambil gambar",
+      "clearButton": "Bersihkan",
+      "descriptionPlaceholder": "Deskripsikan gambar Anda...",
+      "sendButton": "Kirim gambar"
+    },
+    "audioRecording": {
+      "startButton": "Mulai rekaman",
+      "stopButton": "Hentikan rekaman",
+      "listeningText": "Mendengarkan...",
+      "errorText": "Kesalahan: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Bahasa"
+    },
+    "messages": {
+      "you": "Anda",
+      "assistant": "Asisten AI",
+      "typing": "AI sedang mengetik..."
+    },
+    "errors": {
+      "apiKey": "Kunci API Groq hilang. Tambahkan VITE_GROQ_API_KEY ke variabel lingkungan Anda.",
+      "sendMessage": "Gagal mengirim pesan",
+      "processImage": "Gagal memproses gambar",
+      "processAudio": "Gagal memproses audio",
+      "browserSupport": "Browser Anda tidak mendukung fitur ini"
+    }
+  }
+  

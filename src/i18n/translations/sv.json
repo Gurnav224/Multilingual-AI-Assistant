@@ -1,0 +1,36 @@
+{
+    "appTitle": "Flerspråkig AI-assistent",
+    "sendButton": "Skicka",
+    "clearButton": "Rensa chatt",
+    "inputPlaceholder": "Skriv ditt meddelande...",
+    "imageUpload": {
+      "title": "Bildinmatning",
+      "uploadButton": "Ladda upp",
+      "captureButton": "Ta bild",
+      "clearButton": "Rensa",
+      "descriptionPlaceholder": "Beskriv din bild...",
+      "sendButton": "Skicka bild"
+    },
+    "audioRecording": {
+      "startButton": "Börja spela in",
+      "stopButton": "Stanna inspelning",
+      "listeningText": "Lyssnar...",
+      "errorText": "Fel: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Språk"
+    },
+    "messages": {
+      "you": "Du",
+      "assistant": "AI-assistent",
+      "typing": "AI skriver..."
+    },
+    "errors": {
+      "apiKey": "Groq API-nyckel saknas. Lägg till VITE_GROQ_API_KEY i dina miljövariabler.",
+      "sendMessage": "Misslyckades med att skicka meddelande",
+      "processImage": "Misslyckades med att bearbeta bild",
+      "processAudio": "Misslyckades med att bearbeta ljud",
+      "browserSupport": "Din webbläsare stöder inte denna funktion"
+    }
+  }
+  

@@ -1,0 +1,36 @@
+{
+    "appTitle": "Wielojęzyczny Asystent AI",
+    "sendButton": "Wyślij",
+    "clearButton": "Wyczyść czat",
+    "inputPlaceholder": "Wpisz swoją wiadomość...",
+    "imageUpload": {
+      "title": "Wprowadzanie obrazu",
+      "uploadButton": "Prześlij",
+      "captureButton": "Zrób zdjęcie",
+      "clearButton": "Wyczyść",
+      "descriptionPlaceholder": "Opisz swój obraz...",
+      "sendButton": "Wyślij obraz"
+    },
+    "audioRecording": {
+      "startButton": "Rozpocznij nagrywanie",
+      "stopButton": "Zatrzymaj nagrywanie",
+      "listeningText": "Słucham...",
+      "errorText": "Błąd: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Język"
+    },
+    "messages": {
+      "you": "Ty",
+      "assistant": "Asystent AI",
+      "typing": "AI pisze..."
+    },
+    "errors": {
+      "apiKey": "Brak klucza API Groq. Dodaj VITE_GROQ_API_KEY do zmiennych środowiskowych.",
+      "sendMessage": "Nie udało się wysłać wiadomości",
+      "processImage": "Nie udało się przetworzyć obrazu",
+      "processAudio": "Nie udało się przetworzyć dźwięku",
+      "browserSupport": "Twoja przeglądarka nie obsługuje tej funkcji"
+    }
+  }
+  

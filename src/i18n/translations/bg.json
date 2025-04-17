@@ -1,0 +1,36 @@
+{
+    "appTitle": "Многоезичен AI асистент",
+    "sendButton": "Изпрати",
+    "clearButton": "Изчисти чата",
+    "inputPlaceholder": "Въведете съобщението си...",
+    "imageUpload": {
+      "title": "Качване на изображение",
+      "uploadButton": "Качване",
+      "captureButton": "Снимай",
+      "clearButton": "Изчисти",
+      "descriptionPlaceholder": "Описанието на изображението ви...",
+      "sendButton": "Изпрати изображение"
+    },
+    "audioRecording": {
+      "startButton": "Започнете запис",
+      "stopButton": "Спри записа",
+      "listeningText": "Слушам...",
+      "errorText": "Грешка: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Език"
+    },
+    "messages": {
+      "you": "Вие",
+      "assistant": "AI асистент",
+      "typing": "AI пише..."
+    },
+    "errors": {
+      "apiKey": "Липсва API ключа на Groq. Моля, добавете VITE_GROQ_API_KEY към вашите променливи на околната среда.",
+      "sendMessage": "Неуспешно изпращане на съобщение",
+      "processImage": "Неуспешна обработка на изображението",
+      "processAudio": "Неуспешна обработка на аудио",
+      "browserSupport": "Вашият браузър не поддържа тази функция"
+    }
+  }
+  
