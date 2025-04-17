@@ -31,7 +31,7 @@ function App() {
   }; 
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4 top-0">
+    <div className="min-h-screen bg-gray-100 p-4 top-0 mb-20">
       <div className="max-w-6xl mx-auto">
 
         <div className="flex gap-10 items-center mb-12 lg:mb-20 top-0 sticky bg-white shadow-md rounded-lg pr-4 sm:py-2 lg:py-1">

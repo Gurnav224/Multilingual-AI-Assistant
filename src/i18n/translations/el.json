@@ -1,0 +1,36 @@
+{
+    "appTitle": "Πολυγλωσσικός Βοηθός AI",
+    "sendButton": "Αποστολή",
+    "clearButton": "Καθαρισμός συνομιλίας",
+    "inputPlaceholder": "Πληκτρολογήστε το μήνυμά σας...",
+    "imageUpload": {
+      "title": "Μεταφόρτωση εικόνας",
+      "uploadButton": "Μεταφόρτωση",
+      "captureButton": "Λήψη εικόνας",
+      "clearButton": "Καθαρισμός",
+      "descriptionPlaceholder": "Περιγράψτε την εικόνα σας...",
+      "sendButton": "Αποστολή εικόνας"
+    },
+    "audioRecording": {
+      "startButton": "Έναρξη ηχογράφησης",
+      "stopButton": "Διακοπή ηχογράφησης",
+      "listeningText": "Ακούμε...",
+      "errorText": "Σφάλμα: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Γλώσσα"
+    },
+    "messages": {
+      "you": "Εσύ",
+      "assistant": "Βοηθός AI",
+      "typing": "Η AI πληκτρολογεί..."
+    },
+    "errors": {
+      "apiKey": "Λείπει το κλειδί API του Groq. Προσθέστε το VITE_GROQ_API_KEY στις μεταβλητές περιβάλλοντος.",
+      "sendMessage": "Αποτυχία αποστολής μηνύματος",
+      "processImage": "Αποτυχία επεξεργασίας εικόνας",
+      "processAudio": "Αποτυχία επεξεργασίας ήχου",
+      "browserSupport": "Ο περιηγητής σας δεν υποστηρίζει αυτήν τη δυνατότητα"
+    }
+  }
+  

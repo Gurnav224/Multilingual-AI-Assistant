@@ -1,0 +1,36 @@
+{
+    "appTitle": "אסיסטנט AI רב-לשוני",
+    "sendButton": "שלח",
+    "clearButton": "נקה שיחה",
+    "inputPlaceholder": "הקלד את ההודעה שלך...",
+    "imageUpload": {
+      "title": "העלאת תמונה",
+      "uploadButton": "העלה",
+      "captureButton": "צלם",
+      "clearButton": "נקה",
+      "descriptionPlaceholder": "תאר את התמונה שלך...",
+      "sendButton": "שלח תמונה"
+    },
+    "audioRecording": {
+      "startButton": "התחל להקליט",
+      "stopButton": "הפסק הקלטה",
+      "listeningText": "שומע...",
+      "errorText": "שגיאה: {{error}}"
+    },
+    "languageSelector": {
+      "label": "שפה"
+    },
+    "messages": {
+      "you": "אתה",
+      "assistant": "אסיסטנט AI",
+      "typing": "ה-AI מקליד..."
+    },
+    "errors": {
+      "apiKey": "מפתח ה-API של Groq חסר. אנא הוסף את VITE_GROQ_API_KEY למשתני הסביבה שלך.",
+      "sendMessage": "שליחת הודעה נכשלה",
+      "processImage": "עיבוד תמונה נכשל",
+      "processAudio": "עיבוד אודיו נכשל",
+      "browserSupport": "הדפדפן שלך לא תומך בתכונה זו"
+    }
+  }
+  

@@ -1,0 +1,36 @@
+{
+    "appTitle": "Assistente AI Multilingue",
+    "sendButton": "Invia",
+    "clearButton": "Cancella Chat",
+    "inputPlaceholder": "Inserisci il tuo messaggio...",
+    "imageUpload": {
+      "title": "Caricamento Immagine",
+      "uploadButton": "Carica",
+      "captureButton": "Scatta",
+      "clearButton": "Cancella",
+      "descriptionPlaceholder": "Descrivi la tua immagine...",
+      "sendButton": "Invia Immagine"
+    },
+    "audioRecording": {
+      "startButton": "Inizia Registrazione",
+      "stopButton": "Ferma Registrazione",
+      "listeningText": "Ascoltando...",
+      "errorText": "Errore: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Lingua"
+    },
+    "messages": {
+      "you": "Tu",
+      "assistant": "Assistente AI",
+      "typing": "L'AI sta scrivendo..."
+    },
+    "errors": {
+      "apiKey": "Chiave API Groq mancante. Aggiungi VITE_GROQ_API_KEY al tuo ambiente.",
+      "sendMessage": "Invio del messaggio non riuscito",
+      "processImage": "Elaborazione immagine non riuscita",
+      "processAudio": "Elaborazione audio non riuscita",
+      "browserSupport": "Il tuo browser non supporta questa funzionalità"
+    }
+  }
+  

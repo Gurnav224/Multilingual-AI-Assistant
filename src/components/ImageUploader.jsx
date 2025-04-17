@@ -157,7 +157,7 @@ const ImageUploader = ({ onImageCaptured }) => {
       <button
         className="w-full py-2 bg-green-500 text-white rounded hover:bg-green-600 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
         onClick={handleSubmit}
-        disabled={!image}
+        disabled={!description}
       >
         Send Image
       </button>

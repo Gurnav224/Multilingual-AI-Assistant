@@ -1,0 +1,36 @@
+{
+    "appTitle": "Vícejazyčný AI Asistent",
+    "sendButton": "Odeslat",
+    "clearButton": "Vymazat chat",
+    "inputPlaceholder": "Napište svou zprávu...",
+    "imageUpload": {
+      "title": "Nahrávání obrázku",
+      "uploadButton": "Nahrát",
+      "captureButton": "Pořídit obrázek",
+      "clearButton": "Vymazat",
+      "descriptionPlaceholder": "Popište svůj obrázek...",
+      "sendButton": "Odeslat obrázek"
+    },
+    "audioRecording": {
+      "startButton": "Začít nahrávání",
+      "stopButton": "Zastavit nahrávání",
+      "listeningText": "Poslouchám...",
+      "errorText": "Chyba: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Jazyk"
+    },
+    "messages": {
+      "you": "Vy",
+      "assistant": "AI Asistent",
+      "typing": "AI píše..."
+    },
+    "errors": {
+      "apiKey": "Chybí Groq API klíč. Přidejte VITE_GROQ_API_KEY do svých prostředí.",
+      "sendMessage": "Chyba při odesílání zprávy",
+      "processImage": "Chyba při zpracování obrázku",
+      "processAudio": "Chyba při zpracování zvuku",
+      "browserSupport": "Váš prohlížeč tuto funkci nepodporuje"
+    }
+  }
+  

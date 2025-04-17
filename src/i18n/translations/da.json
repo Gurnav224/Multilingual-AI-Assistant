@@ -1,0 +1,36 @@
+{
+    "appTitle": "Flersproget AI-assistent",
+    "sendButton": "Send",
+    "clearButton": "Ryd chat",
+    "inputPlaceholder": "Skriv din besked...",
+    "imageUpload": {
+      "title": "Billedeindlæsning",
+      "uploadButton": "Upload",
+      "captureButton": "Tag billede",
+      "clearButton": "Ryd",
+      "descriptionPlaceholder": "Beskriv dit billede...",
+      "sendButton": "Send billede"
+    },
+    "audioRecording": {
+      "startButton": "Start optagelse",
+      "stopButton": "Stop optagelse",
+      "listeningText": "Lytter...",
+      "errorText": "Fejl: {{error}}"
+    },
+    "languageSelector": {
+      "label": "Sprog"
+    },
+    "messages": {
+      "you": "Du",
+      "assistant": "AI-assistent",
+      "typing": "AI skriver..."
+    },
+    "errors": {
+      "apiKey": "Groq API-nøgle mangler. Tilføj VITE_GROQ_API_KEY til dine miljøvariabler.",
+      "sendMessage": "Fejl ved afsendelse af besked",
+      "processImage": "Fejl ved behandling af billede",
+      "processAudio": "Fejl ved behandling af lyd",
+      "browserSupport": "Din browser understøtter ikke denne funktion"
+    }
+  }
+  

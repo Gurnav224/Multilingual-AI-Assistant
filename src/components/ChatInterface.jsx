@@ -24,8 +24,29 @@ const ChatInterface = ({ language = 'en', model = 'llama3-70b-8192' }) => {
     ko: 'ko-KR',
     ar: 'ar-SA',
     hi: 'hi-IN',
-    ru: 'ru-RU'
+    ru: 'ru-RU',
+    pt: 'pt-PT',
+    it: 'it-IT',
+    nl: 'nl-NL',
+    tr: 'tr-TR',
+    pl: 'pl-PL',
+    sv: 'sv-SE',
+    no: 'nb-NO',
+    da: 'da-DK',
+    fi: 'fi-FI',
+    cs: 'cs-CZ',
+    el: 'el-GR',
+    th: 'th-TH',
+    vi: 'vi-VN',
+    id: 'id-ID',
+    he: 'he-IL',
+    uk: 'uk-UA',
+    ro: 'ro-RO',
+    hu: 'hu-HU',
+    bg: 'bg-BG',
+    ms: 'ms-MY'
   };
+  
 
   const {
     messages,
